@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="?android:attr/windowBackground">
+
+    <!-- Input Nama Pengguna -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPersonName"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Input Suhu dalam Celsius -->
+    <EditText
+        android:id="@+id/etCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Suhu (Celsius)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Tombol untuk Menghitung Konversi -->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konversi ke Fahrenheit"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Menampilkan Hasil -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil akan muncul di sini"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

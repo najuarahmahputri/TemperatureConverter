@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Konversi Suhu</string>
+    <string name="hint_name">Masukkan Nama</string>
+    <string name="hint_celsius">Masukkan Suhu (Celsius)</string>
+    <string name="btn_calculate">Konversi ke Fahrenheit</string>
+    <string name="result_placeholder">Hasil akan muncul di sini</string>
+    <string name="error_empty_fields">Mohon isi semua kolom.</string>
+    <string name="error_invalid_number">Mohon masukkan angka yang valid.</string>
+</resources>
